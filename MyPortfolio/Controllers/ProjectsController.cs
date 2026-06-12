@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
-using MyPortfolio.Models;
+using MyPortfolio.Models.Entities;
 
 namespace MyPortfolio.Controllers
 {
@@ -17,18 +17,32 @@ namespace MyPortfolio.Controllers
         // GET: Projects
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Projects.ToListAsync());
+            var projects = await _context.Projects
+                .Include(p => p.Category)
+                .Where(p => p.IsPublished)
+                .OrderByDescending(p => p.DisplayOrder)
+                .ThenByDescending(p => p.CreatedAt)
+                .ToListAsync();
+                
+            return View(projects);
         }
 
-        // ✅ GET: Projects/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: Projects/Details/{slug}
+        public async Task<IActionResult> Details(string? slug)
         {
-            if (id == null) return NotFound();
+            if (slug == null) return NotFound();
 
             var project = await _context.Projects
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(p => p.Category)
+                .Include(p => p.ProjectTags)
+                .ThenInclude(pt => pt.Tag)
+                .FirstOrDefaultAsync(m => m.Slug == slug && m.IsPublished);
 
             if (project == null) return NotFound();
+
+            // Increment view count
+            project.ViewCount++;
+            await _context.SaveChangesAsync();
 
             return View(project);
         }

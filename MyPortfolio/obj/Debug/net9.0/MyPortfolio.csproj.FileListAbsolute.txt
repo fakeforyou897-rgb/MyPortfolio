@@ -362,3 +362,14 @@ C:\Users\Mostafa\OneDrive\Desktop\Projects\MyPortfolio\MyPortfolio\obj\Debug\net
 C:\Users\Mostafa\OneDrive\Desktop\Projects\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.pdb
 C:\Users\Mostafa\OneDrive\Desktop\Projects\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.genruntimeconfig.cache
 C:\Users\Mostafa\OneDrive\Desktop\Projects\MyPortfolio\MyPortfolio\obj\Debug\net9.0\ref\MyPortfolio.dll
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.csproj.AssemblyReference.cache
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.AssemblyInfoInputs.cache
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.AssemblyInfo.cs
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.csproj.CoreCompileInputs.cache
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.RazorAssemblyInfo.cache
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.RazorAssemblyInfo.cs
+C:\Users\Memo\Downloads\New folder (3)\New folder\work\New folder (5)\MyPortfolio\MyPortfolio\obj\Debug\net9.0\MyPortfolio.sourcelink.json

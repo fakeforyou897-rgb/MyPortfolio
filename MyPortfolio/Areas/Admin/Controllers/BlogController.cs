@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
-using MyPortfolio.Models;
-using System.Threading.Tasks;
-using System.Linq;
+using MyPortfolio.Models.Entities;
+using MyPortfolio.Extensions;
 
 namespace MyPortfolio.Areas.Admin.Controllers
 {

@@ -4,9 +4,9 @@ using MyPortfolio.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔹 1. Add Database (SQL Server example)
+// 🔹 1. Add Database (SQLite)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 🔹 2. Add Identity
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.Areas.Admin.Models;
 using MyPortfolio.Data;
-using MyPortfolio.Models;
-using System.Linq;
-using System.Threading.Tasks;
+using MyPortfolio.Models.Entities;
+using MyPortfolio.Models.ViewModels;
+using MyPortfolio.Extensions;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyPortfolio.Areas.Admin.Controllers
 {
@@ -45,7 +45,7 @@ namespace MyPortfolio.Areas.Admin.Controllers
         }
 
         // GET: Admin/Projects/Edit/{id}
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(Guid id)
         {
             var project = await _context.Projects.FindAsync(id);
             if (project == null) return NotFound();
@@ -55,11 +55,15 @@ namespace MyPortfolio.Areas.Admin.Controllers
         // POST: Admin/Projects/Edit/{id}
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Project model)
+        public async Task<IActionResult> Edit(Guid id, Project model)
         {
             if (id != model.Id) return BadRequest();
             if (ModelState.IsValid)
             {
+                // Auto-generate slug if empty
+                if (string.IsNullOrWhiteSpace(model.Slug))
+                    model.Slug = model.Title.ToSlug();
+
                 _context.Update(model);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -68,7 +72,7 @@ namespace MyPortfolio.Areas.Admin.Controllers
         }
 
         // GET: Admin/Projects/Delete/{id}
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             var project = await _context.Projects.FindAsync(id);
             if (project == null) return NotFound();
@@ -78,7 +82,7 @@ namespace MyPortfolio.Areas.Admin.Controllers
         // POST: Admin/Projects/DeleteConfirmed
         [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var project = await _context.Projects.FindAsync(id);
             if (project == null) return NotFound();
