@@ -1,10 +1,16 @@
-﻿@page
+@page
 @model LockoutModel
 @{
-    ViewData["Title"] = "Locked out";
+  ViewData["Title"] = "Account Locked";
 }
 
-<header>
-    <h1 class="text-danger">@ViewData["Title"]</h1>
-    <p class="text-danger">This account has been locked out, please try again later.</p>
-</header>
+<section class="section" style="min-height:60vh;display:flex;align-items:center;">
+  <div class="container" style="max-width:440px;width:100%;text-align:center;">
+    <div style="font-size:3rem;margin-bottom:1rem;">⏳</div>
+    <h1 style="font-size:1.75rem;font-weight:800;color:var(--color-text);margin-bottom:0.75rem;">Account Locked</h1>
+    <p style="color:var(--color-text-muted);margin-bottom:2rem;">
+      Your account has been temporarily locked due to too many failed login attempts. Please try again later.
+    </p>
+    <a href="/" class="btn btn-ghost">← Back to Home</a>
+  </div>
+</section>

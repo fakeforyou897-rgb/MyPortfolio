@@ -1,31 +1,76 @@
-﻿@model IEnumerable<MyPortfolio.Models.Entities.Project>
+@model IEnumerable<MyPortfolio.Models.Entities.Project>
 @{
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+  Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1 class="text-2xl font-bold mb-6">Projects</h1>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.75rem;flex-wrap:wrap;gap:0.75rem;">
+  <div>
+    <h1 style="font-size:1.5rem;font-weight:800;color:var(--color-text);margin-bottom:0.2rem;">Projects</h1>
+    <p style="color:var(--color-text-muted);font-size:0.875rem;margin:0;">@Model.Count() project(s) total</p>
+  </div>
+  <a asp-action="Create" class="btn btn-primary">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+    Add Project
+  </a>
+</div>
 
-<a asp-action="Create" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 mb-4 inline-block">Add Project</a>
-
-<table class="min-w-full bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
-    <thead class="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200">
-        <tr>
-            <th class="px-4 py-2 text-left">Title</th>
-            <th class="px-4 py-2 text-left">Created At</th>
-            <th class="px-4 py-2">Actions</th>
-        </tr>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Status</th>
+        <th>Featured</th>
+        <th>Created</th>
+        <th style="text-align:right;">Actions</th>
+      </tr>
     </thead>
     <tbody>
-        @foreach (var project in Model)
-        {
-            <tr class="border-b border-gray-200 dark:border-gray-700">
-                <td class="px-4 py-2">@project.Title</td>
-                <td class="px-4 py-2">@project.CreatedAt.ToShortDateString()</td>
-                <td class="px-4 py-2 text-center space-x-2">
-                    <a asp-action="Edit" asp-route-id="@project.Id" class="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@project.Id" class="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600">Delete</a>
-                </td>
-            </tr>
-        }
+      @foreach (var project in Model)
+      {
+        var titleJson = System.Text.Json.JsonSerializer.Serialize(project.Title);
+        <tr>
+          <td>
+            <div style="font-weight:600;color:var(--color-text);">@project.Title</div>
+            @if (!string.IsNullOrEmpty(project.Technologies))
+            {
+              var techs = project.Technologies.Split(',').Take(3);
+              <div style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.2rem;">@string.Join(", ", techs)</div>
+            }
+          </td>
+          <td>
+            <span class="badge @(project.Status.ToString()=="Completed"?"badge-success":"badge-warning")">@project.Status</span>
+          </td>
+          <td>
+            @if (project.IsFeatured)
+            {
+              <span class="badge badge-primary">⭐ Yes</span>
+            }
+            else
+            {
+              <span style="color:var(--color-text-muted);font-size:0.8rem;">No</span>
+            }
+          </td>
+          <td style="color:var(--color-text-muted);font-size:0.82rem;white-space:nowrap;">@project.CreatedAt.ToString("MMM dd, yyyy")</td>
+          <td style="text-align:right;white-space:nowrap;">
+            <div style="display:flex;gap:0.4rem;justify-content:flex-end;">
+              <a asp-action="Edit" asp-route-id="@project.Id" class="btn btn-ghost btn-sm">Edit</a>
+              <form asp-action="DeleteConfirmed" method="post" style="display:inline;" onsubmit="event.preventDefault();confirmDelete(this,@Html.Raw(titleJson));return false;">
+                <input type="hidden" name="id" value="@project.Id" />
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+              </form>
+            </div>
+          </td>
+        </tr>
+      }
+      @if (!Model.Any())
+      {
+        <tr>
+          <td colspan="5" style="text-align:center;padding:3rem;color:var(--color-text-muted);">
+            No projects yet. <a asp-action="Create" style="color:var(--color-primary);">Add your first project →</a>
+          </td>
+        </tr>
+      }
     </tbody>
-</table>
+  </table>
+</div>

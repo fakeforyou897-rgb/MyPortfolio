@@ -1,25 +1,95 @@
-﻿@{
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+@{
+  Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 @model MyPortfolio.Models.Entities.BlogPost
 
-<h1 class="text-2xl font-bold mb-6">Create Blog</h1>
+<div style="max-width:760px;">
+  <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.75rem;">
+    <a href="@Url.Action("Index")" class="btn btn-ghost btn-sm">← Back</a>
+    <h1 style="font-size:1.4rem;font-weight:800;color:var(--color-text);margin:0;">New Blog Post</h1>
+  </div>
 
-<form asp-action="Create" method="post" class="space-y-4">
-    <div>
-        <label class="block font-medium">Title</label>
-        <input asp-for="Title" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" />
-        <span asp-validation-for="Title" class="text-red-500"></span>
-    </div>
-    <div>
-        <label class="block font-medium">Content</label>
-        <textarea asp-for="Content" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600"></textarea>
-        <span asp-validation-for="Content" class="text-red-500"></span>
-    </div>
-    <button type="submit" class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Save</button>
-    <a asp-action="Index" class="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">Cancel</a>
-</form>
+  <div class="card" style="padding:2rem;">
+    <form asp-action="Create" method="post">
+      <div asp-validation-summary="ModelOnly" class="form-alert form-alert-error" style="margin-bottom:1.25rem;"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;">
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="Title" class="form-label">Title *</label>
+          <input asp-for="Title" class="form-control" placeholder="Your Post Title" />
+          <span asp-validation-for="Title" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="Summary" class="form-label">Summary / Excerpt</label>
+          <textarea asp-for="Summary" class="form-control" rows="2" placeholder="Brief description shown in cards and meta tags"></textarea>
+        </div>
+
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="Content" class="form-label">Content *</label>
+          <textarea asp-for="Content" class="form-control" rows="10" placeholder="Write your blog post content here…"></textarea>
+          <span asp-validation-for="Content" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label asp-for="Author" class="form-label">Author</label>
+          <input asp-for="Author" class="form-control" placeholder="Your Name" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="ReadingTimeMinutes" class="form-label">Reading Time (minutes)</label>
+          <input asp-for="ReadingTimeMinutes" type="number" min="1" class="form-control" value="5" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="ImageUrl" class="form-label">Card Image URL</label>
+          <input asp-for="ImageUrl" class="form-control" placeholder="https://…/image.jpg" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="FeaturedImageUrl" class="form-label">Featured/Hero Image URL</label>
+          <input asp-for="FeaturedImageUrl" class="form-control" placeholder="https://…/hero.jpg" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="MetaTitle" class="form-label">Meta Title</label>
+          <input asp-for="MetaTitle" class="form-control" placeholder="SEO title" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="MetaKeywords" class="form-label">Meta Keywords</label>
+          <input asp-for="MetaKeywords" class="form-control" placeholder="keyword1, keyword2" />
+        </div>
+
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="MetaDescription" class="form-label">Meta Description</label>
+          <textarea asp-for="MetaDescription" class="form-control" rows="2" placeholder="SEO description"></textarea>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:1rem;margin-top:0.5rem;flex-wrap:wrap;">
+        <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;font-size:0.875rem;color:var(--color-text);">
+          <input asp-for="IsPublished" type="checkbox" checked style="width:16px;height:16px;accent-color:var(--color-primary);" />
+          Published
+        </label>
+        <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;font-size:0.875rem;color:var(--color-text);">
+          <input asp-for="IsFeatured" type="checkbox" style="width:16px;height:16px;accent-color:var(--color-primary);" />
+          Featured
+        </label>
+        <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;font-size:0.875rem;color:var(--color-text);">
+          <input asp-for="AllowComments" type="checkbox" checked style="width:16px;height:16px;accent-color:var(--color-primary);" />
+          Allow Comments
+        </label>
+      </div>
+
+      <div style="display:flex;gap:0.75rem;margin-top:1.5rem;">
+        <button type="submit" class="btn btn-primary">Publish Post</button>
+        <a asp-action="Index" class="btn btn-ghost">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+  <partial name="_ValidationScriptsPartial" />
 }

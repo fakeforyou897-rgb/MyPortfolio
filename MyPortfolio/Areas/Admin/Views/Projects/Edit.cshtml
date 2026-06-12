@@ -1,26 +1,108 @@
-﻿@model MyPortfolio.Models.Entities.Project
+@model MyPortfolio.Models.Entities.Project
 @{
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+  Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1 class="text-2xl font-bold mb-6">Edit Project</h1>
+<div style="max-width:720px;">
+  <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.75rem;">
+    <a href="@Url.Action("Index")" class="btn btn-ghost btn-sm">← Back</a>
+    <h1 style="font-size:1.4rem;font-weight:800;color:var(--color-text);margin:0;">Edit Project</h1>
+  </div>
 
-<form asp-action="Edit" method="post" class="space-y-4">
-    <input type="hidden" asp-for="Id" />
-    <div>
-        <label class="block mb-1">Title</label>
-        <input asp-for="Title" class="w-full p-2 border rounded" />
-        <span asp-validation-for="Title" class="text-red-500"></span>
-    </div>
-    <div>
-        <label class="block mb-1">Description</label>
-        <textarea asp-for="Description" class="w-full p-2 border rounded"></textarea>
-        <span asp-validation-for="Description" class="text-red-500"></span>
-    </div>
-    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Save</button>
-    <a asp-action="Index" class="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">Cancel</a>
-</form>
+  <div class="card" style="padding:2rem;">
+    <form asp-action="Edit" method="post">
+      <input type="hidden" asp-for="Id" />
+      <div asp-validation-summary="ModelOnly" class="form-alert form-alert-error" style="margin-bottom:1.25rem;"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;">
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="Title" class="form-label">Title *</label>
+          <input asp-for="Title" class="form-control" />
+          <span asp-validation-for="Title" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="Description" class="form-label">Full Description *</label>
+          <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+          <span asp-validation-for="Description" class="field-validation-error"></span>
+        </div>
+
+        <div class="form-group" style="grid-column:1/-1;">
+          <label asp-for="ShortDescription" class="form-label">Short Description</label>
+          <input asp-for="ShortDescription" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="Technologies" class="form-label">Technologies</label>
+          <input asp-for="Technologies" class="form-control" />
+          <small style="font-size:0.75rem;color:var(--color-text-muted);">Comma-separated</small>
+        </div>
+
+        <div class="form-group">
+          <label asp-for="ClientName" class="form-label">Client Name</label>
+          <input asp-for="ClientName" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="GitHubUrl" class="form-label">GitHub URL</label>
+          <input asp-for="GitHubUrl" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="LiveDemoUrl" class="form-label">Live Demo URL</label>
+          <input asp-for="LiveDemoUrl" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="ImageUrl" class="form-label">Image URL</label>
+          <input asp-for="ImageUrl" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="ThumbnailUrl" class="form-label">Thumbnail URL</label>
+          <input asp-for="ThumbnailUrl" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="StartDate" class="form-label">Start Date</label>
+          <input asp-for="StartDate" type="date" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="EndDate" class="form-label">End Date</label>
+          <input asp-for="EndDate" type="date" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="DisplayOrder" class="form-label">Display Order</label>
+          <input asp-for="DisplayOrder" type="number" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label asp-for="Rating" class="form-label">Rating (1–5)</label>
+          <input asp-for="Rating" type="number" min="1" max="5" class="form-control" />
+        </div>
+      </div>
+
+      <div style="display:flex;gap:1rem;margin-top:0.5rem;flex-wrap:wrap;">
+        <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;font-size:0.875rem;color:var(--color-text);">
+          <input asp-for="IsFeatured" type="checkbox" style="width:16px;height:16px;accent-color:var(--color-primary);" />
+          Featured
+        </label>
+        <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;font-size:0.875rem;color:var(--color-text);">
+          <input asp-for="IsPublished" type="checkbox" style="width:16px;height:16px;accent-color:var(--color-primary);" />
+          Published
+        </label>
+      </div>
+
+      <div style="display:flex;gap:0.75rem;margin-top:1.5rem;">
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+        <a asp-action="Index" class="btn btn-ghost">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+  <partial name="_ValidationScriptsPartial" />
 }

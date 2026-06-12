@@ -1,0 +1,3 @@
+- [Design system & jQuery validation](design-system.md) — admin uses Tailwind CDN, public + Identity use site.css only; jQuery validation served via CDN (no wwwroot/lib folder exists)
+- [Admin logout fix](admin-logout.md) — admin sidebar logout must use asp-area="Identity" asp-page="/Account/Logout" not asp-controller="Account"
+- [Delete confirm pattern](delete-confirm.md) — inline forms with onsubmit="event.preventDefault();confirmDelete(this,JSON)" + JS modal; separate Delete pages kept as fallback

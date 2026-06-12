@@ -1,31 +1,84 @@
-﻿@{
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+@{
+  Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 @model IEnumerable<MyPortfolio.Models.Entities.BlogPost>
 
-<h1 class="text-2xl font-bold mb-6">Blogs</h1>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.75rem;flex-wrap:wrap;gap:0.75rem;">
+  <div>
+    <h1 style="font-size:1.5rem;font-weight:800;color:var(--color-text);margin-bottom:0.2rem;">Blog Posts</h1>
+    <p style="color:var(--color-text-muted);font-size:0.875rem;margin:0;">@Model.Count() post(s) total</p>
+  </div>
+  <a href="@Url.Action("Create")" class="btn btn-primary">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+    New Post
+  </a>
+</div>
 
-<a href="@Url.Action("Create")" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">Create New Blog</a>
-
-<table class="min-w-full bg-white dark:bg-gray-800 mt-4 rounded-lg shadow overflow-hidden">
-    <thead class="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200">
-        <tr>
-            <th class="px-4 py-2 text-left">Title</th>
-            <th class="px-4 py-2">Created At</th>
-            <th class="px-4 py-2">Actions</th>
-        </tr>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Status</th>
+        <th>Featured</th>
+        <th>Created</th>
+        <th style="text-align:right;">Actions</th>
+      </tr>
     </thead>
     <tbody>
-        @foreach (var blog in Model)
-        {
-            <tr class="border-b border-gray-200 dark:border-gray-700">
-                <td class="px-4 py-2">@blog.Title</td>
-                <td class="px-4 py-2 text-center">@blog.CreatedAt.ToShortDateString()</td>
-                <td class="px-4 py-2 text-center space-x-2">
-                    <a href="@Url.Action("Edit", new { id = blog.Id })" class="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">Edit</a>
-                    <a href="@Url.Action("Delete", new { id = blog.Id })" class="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600">Delete</a>
-                </td>
-            </tr>
-        }
+      @foreach (var blog in Model)
+      {
+        var titleJson = System.Text.Json.JsonSerializer.Serialize(blog.Title);
+        <tr>
+          <td>
+            <div style="font-weight:600;color:var(--color-text);">@blog.Title</div>
+            @if (!string.IsNullOrEmpty(blog.Summary))
+            {
+              <div style="font-size:0.75rem;color:var(--color-text-muted);margin-top:0.2rem;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">@blog.Summary</div>
+            }
+          </td>
+          <td style="font-size:0.82rem;color:var(--color-text-muted);">@(blog.Author ?? "Admin")</td>
+          <td>
+            @if (blog.IsPublished)
+            {
+              <span class="badge badge-success">Published</span>
+            }
+            else
+            {
+              <span class="badge badge-neutral">Draft</span>
+            }
+          </td>
+          <td>
+            @if (blog.IsFeatured)
+            {
+              <span class="badge badge-primary">⭐ Yes</span>
+            }
+            else
+            {
+              <span style="color:var(--color-text-muted);font-size:0.8rem;">No</span>
+            }
+          </td>
+          <td style="color:var(--color-text-muted);font-size:0.82rem;white-space:nowrap;">@blog.CreatedAt.ToString("MMM dd, yyyy")</td>
+          <td style="text-align:right;white-space:nowrap;">
+            <div style="display:flex;gap:0.4rem;justify-content:flex-end;">
+              <a href="@Url.Action("Edit", new { id = blog.Id })" class="btn btn-ghost btn-sm">Edit</a>
+              <form asp-action="DeleteConfirmed" method="post" style="display:inline;" onsubmit="event.preventDefault();confirmDelete(this,@Html.Raw(titleJson));return false;">
+                <input type="hidden" name="id" value="@blog.Id" />
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+              </form>
+            </div>
+          </td>
+        </tr>
+      }
+      @if (!Model.Any())
+      {
+        <tr>
+          <td colspan="6" style="text-align:center;padding:3rem;color:var(--color-text-muted);">
+            No blog posts yet. <a href="@Url.Action("Create")" style="color:var(--color-primary);">Write your first post →</a>
+          </td>
+        </tr>
+      }
     </tbody>
-</table>
+  </table>
+</div>

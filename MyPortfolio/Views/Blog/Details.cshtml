@@ -1,28 +1,82 @@
-﻿@model MyPortfolio.Models.Entities.BlogPost
+@model MyPortfolio.Models.Entities.BlogPost
 @{
-    ViewData["Title"] = Model.Title;
+  ViewData["Title"] = Model.Title;
 }
 
-<div class="container mx-auto px-6 py-12">
-    <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">@Model.Title</h1>
+<article class="section" style="max-width:780px;margin:0 auto;">
+  <div class="container">
 
-    <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
-        By @(!string.IsNullOrEmpty(Model.Author) ? Model.Author : "Admin") • @(Model.PublishedAt.HasValue ? Model.PublishedAt.Value.ToString("MMMM dd, yyyy") : "Not published")
-    </p>
+    <!-- Back link -->
+    <div style="margin-bottom:2rem;">
+      <a href="@Url.Action("Index","Blog")" class="btn btn-ghost btn-sm">← Back to Blog</a>
+    </div>
 
-    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    <!-- Header -->
+    <header style="margin-bottom:2rem;">
+      @if (Model.IsFeatured)
+      {
+        <span class="badge badge-warning" style="margin-bottom:0.75rem;display:inline-block;">⭐ Featured</span>
+      }
+      <h1 style="font-size:clamp(1.75rem,4vw,2.75rem);font-weight:800;color:var(--color-text);line-height:1.2;margin-bottom:1rem;">
+        @Model.Title
+      </h1>
+      <div style="display:flex;flex-wrap:wrap;gap:1rem;align-items:center;font-size:0.82rem;color:var(--color-text-muted);margin-bottom:1.5rem;">
+        <span>✍️ @(!string.IsNullOrEmpty(Model.Author) ? Model.Author : "Admin")</span>
+        <span>·</span>
+        <span>📅 @(Model.PublishedAt.HasValue ? Model.PublishedAt.Value.ToString("MMMM dd, yyyy") : "Not published")</span>
+        @if (Model.ReadingTimeMinutes > 0)
+        {
+          <span>·</span>
+          <span>⏱ @Model.ReadingTimeMinutes min read</span>
+        }
+        @if (Model.ViewCount > 0)
+        {
+          <span>·</span>
+          <span>👁 @Model.ViewCount views</span>
+        }
+      </div>
+    </header>
+
+    <!-- Featured Image -->
+    @if (!string.IsNullOrEmpty(Model.FeaturedImageUrl))
     {
-        <img src="@Model.ImageUrl" alt="@Model.Title" class="rounded-lg shadow-md mb-6 max-h-96 mx-auto" />
+      <div style="margin-bottom:2.5rem;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--color-border);">
+        <img src="@Model.FeaturedImageUrl" alt="@Model.Title" style="width:100%;height:360px;object-fit:cover;" loading="lazy" />
+      </div>
+    }
+    else if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+      <div style="margin-bottom:2.5rem;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--color-border);">
+        <img src="@Model.ImageUrl" alt="@Model.Title" style="width:100%;max-height:360px;object-fit:cover;" loading="lazy" />
+      </div>
     }
 
-    <article class="prose dark:prose-invert lg:prose-lg max-w-none">
-        @Html.Raw(Model.Content)
-    </article>
+    <!-- Summary -->
+    @if (!string.IsNullOrEmpty(Model.Summary))
+    {
+      <div style="background:var(--color-primary-soft);border-left:4px solid var(--color-primary);border-radius:var(--radius-md);padding:1rem 1.25rem;margin-bottom:2rem;">
+        <p style="color:var(--color-primary-text);font-style:italic;margin:0;font-size:0.95rem;">@Model.Summary</p>
+      </div>
+    }
 
-    <div class="mt-10">
-        <a href="@Url.Action("Index", "Blog")"
-           class="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition">
-            ← Back to Blog
-        </a>
+    <!-- Content -->
+    <div style="color:var(--color-text);line-height:1.8;font-size:1rem;">
+      <div style="white-space:pre-wrap;word-break:break-word;">@Model.Content</div>
     </div>
-</div>
+
+    <!-- Footer -->
+    <div style="border-top:1px solid var(--color-border);margin-top:3rem;padding-top:1.5rem;display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between;align-items:center;">
+      <a href="@Url.Action("Index","Blog")" class="btn btn-ghost">← All Posts</a>
+      <div style="display:flex;gap:0.5rem;">
+        @if (Model.LikeCount > 0)
+        {
+          <span style="font-size:0.82rem;color:var(--color-text-muted);">❤️ @Model.LikeCount likes</span>
+        }
+        @if (Model.ShareCount > 0)
+        {
+          <span style="font-size:0.82rem;color:var(--color-text-muted);">↗ @Model.ShareCount shares</span>
+        }
+      </div>
+    </div>
+  </div>
+</article>

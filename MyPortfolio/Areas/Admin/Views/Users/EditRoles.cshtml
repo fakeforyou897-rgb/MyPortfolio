@@ -1,32 +1,41 @@
-﻿@model MyPortfolio.Models.ViewModels.Admin.EditRolesViewModel
+@model MyPortfolio.Models.ViewModels.Admin.EditRolesViewModel
 @{
-    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+  Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<div class="p-6">
-    <h1 class="text-2xl font-bold mb-6 text-gray-800 dark:text-gray-200">Edit Roles for @Model.UserEmail</h1>
+<div style="max-width:480px;">
+  <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.75rem;">
+    <a href="@Url.Action("Index","Users",new{area="Admin"})" class="btn btn-ghost btn-sm">← Back</a>
+    <h1 style="font-size:1.4rem;font-weight:800;color:var(--color-text);margin:0;">Edit Roles</h1>
+  </div>
 
-    <form asp-action="EditRoles" method="post" class="space-y-4">
-        <input type="hidden" asp-for="UserId" />
+  <div class="card" style="padding:2rem;">
+    <div style="margin-bottom:1.25rem;">
+      <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--color-text-muted);margin-bottom:0.3rem;">User</div>
+      <div style="font-weight:600;color:var(--color-text);">@Model.UserEmail</div>
+    </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            @foreach (var role in Model.Roles)
-            {
-                <div class="flex items-center space-x-2">
-                    <input type="checkbox" asp-for="@role.Selected" class="h-5 w-5 text-blue-600 rounded" />
-                    <label class="text-gray-800 dark:text-gray-200">@role.RoleName</label>
-                </div>
-            }
-        </div>
+    <div class="divider"></div>
 
-        <button type="submit"
-                class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition mt-4">
-            Save Changes
-        </button>
+    <form asp-action="EditRoles" method="post" style="margin-top:1.25rem;">
+      <input type="hidden" asp-for="UserId" />
 
-        <a href="@Url.Action("Index", "Users", new { area = "Admin" })"
-           class="ml-4 px-4 py-2 bg-gray-400 text-white rounded-lg hover:bg-gray-500 transition">
-            Cancel
-        </a>
+      <div style="display:flex;flex-direction:column;gap:0.75rem;margin-bottom:1.5rem;">
+        @foreach (var role in Model.Roles)
+        {
+          <label style="display:flex;align-items:center;gap:0.75rem;cursor:pointer;padding:0.75rem 1rem;border:1.5px solid var(--color-border);border-radius:var(--radius-md);transition:border-color 0.2s;">
+            <input type="checkbox" asp-for="@role.Selected" style="width:18px;height:18px;accent-color:var(--color-primary);flex-shrink:0;" />
+            <div>
+              <div style="font-size:0.9rem;font-weight:600;color:var(--color-text);">@role.RoleName</div>
+            </div>
+          </label>
+        }
+      </div>
+
+      <div style="display:flex;gap:0.75rem;">
+        <button type="submit" class="btn btn-primary">Save Roles</button>
+        <a href="@Url.Action("Index","Users",new{area="Admin"})" class="btn btn-ghost">Cancel</a>
+      </div>
     </form>
+  </div>
 </div>
