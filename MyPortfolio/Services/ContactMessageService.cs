@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data.UnitOfWork;
 using MyPortfolio.Extensions;
 using MyPortfolio.Models.Common;
@@ -51,7 +52,7 @@ namespace MyPortfolio.Services
                 .OrderByDescending(m => m.CreatedAt)
                 .Take(count);
             
-            return await query.ToListAsync();
+            return await query.ToListAsync(cancellationToken);
         }
 
         public async Task<int> GetUnreadCountAsync(CancellationToken cancellationToken = default)
@@ -89,7 +90,7 @@ namespace MyPortfolio.Services
             // Apply sorting
             if (!string.IsNullOrWhiteSpace(parameters.SortBy))
             {
-                query = query.ApplySort(parameters.SortBy, parameters.SortDescending);
+                query = query.ApplySort(parameters.SortBy, parameters.IsDescending);
             }
             else
             {

@@ -1,20 +1,16 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using MyPortfolio.Data;
 
 namespace MyPortfolio.Configuration.Database
 {
-    /// <summary>
-    /// Extension methods for database configuration
-    /// </summary>
     public static class DatabaseExtensions
     {
-        /// <summary>
-        /// Configure SQLite database context
-        /// </summary>
         public static IServiceCollection AddDatabaseConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlite(configuration.GetConnectionString("DefaultConnection"))
+                       .ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning)));
 
             return services;
         }

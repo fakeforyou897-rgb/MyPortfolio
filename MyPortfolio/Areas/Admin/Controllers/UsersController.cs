@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MyPortfolio.Areas.Admin.Models;
+using MyPortfolio.Models.ViewModels.Admin;
 using System.Threading.Tasks;
 using System.Linq;
 
@@ -18,14 +18,12 @@ namespace MyPortfolio.Areas.Admin.Controllers
             _roleManager = roleManager;
         }
 
-        // GET: Admin/Users
         public IActionResult Index()
         {
             var users = _userManager.Users.ToList();
             return View(users);
         }
 
-        // GET: Admin/Users/EditRoles/{id}
         public async Task<IActionResult> EditRoles(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -34,18 +32,17 @@ namespace MyPortfolio.Areas.Admin.Controllers
             var model = new EditRolesViewModel
             {
                 UserId = user.Id,
-                UserEmail = user.Email,
+                UserEmail = user.Email ?? string.Empty,
                 Roles = _roleManager.Roles.Select(r => new RoleSelection
                 {
-                    RoleName = r.Name,
-                    Selected = _userManager.IsInRoleAsync(user, r.Name).Result
+                    RoleName = r.Name ?? string.Empty,
+                    Selected = _userManager.IsInRoleAsync(user, r.Name ?? string.Empty).Result
                 }).ToList()
             };
 
             return View(model);
         }
 
-        // POST: Admin/Users/EditRoles
         [HttpPost]
         public async Task<IActionResult> EditRoles(EditRolesViewModel model)
         {
@@ -67,7 +64,6 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Admin/Users/Delete/{id}
         public async Task<IActionResult> Delete(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
@@ -75,7 +71,6 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return View(user);
         }
 
-        // POST: Admin/Users/DeleteConfirmed
         [HttpPost, ActionName("DeleteConfirmed")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {

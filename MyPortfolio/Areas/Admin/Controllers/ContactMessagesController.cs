@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using MyPortfolio.Data;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,7 +15,6 @@ namespace MyPortfolio.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/ContactMessages
         public IActionResult Index()
         {
             var messages = _context.ContactMessages
@@ -24,26 +23,23 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return View(messages);
         }
 
-        // GET: Admin/ContactMessages/Details/{id}
-        public IActionResult Details(int id)
+        public IActionResult Details(Guid id)
         {
             var message = _context.ContactMessages.FirstOrDefault(m => m.Id == id);
             if (message == null) return NotFound();
             return View(message);
         }
 
-        // GET: Admin/ContactMessages/Delete/{id}
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Guid id)
         {
             var message = _context.ContactMessages.FirstOrDefault(m => m.Id == id);
             if (message == null) return NotFound();
             return View(message);
         }
 
-        // POST: Admin/ContactMessages/DeleteConfirmed
         [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(Guid id)
         {
             var message = _context.ContactMessages.FirstOrDefault(m => m.Id == id);
             if (message != null)

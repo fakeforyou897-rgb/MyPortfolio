@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MyPortfolio.Models.BlogPost>
+﻿@model IEnumerable<MyPortfolio.Models.Entities.BlogPost>
 @{
     ViewData["Title"] = "Blog";
 }
@@ -17,7 +17,7 @@
                 </h2>
 
                 <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                    By @(!string.IsNullOrEmpty(post.Author) ? post.Author : "Admin") • @post.PublishedAt.ToString("MMMM dd, yyyy")
+                    By @(!string.IsNullOrEmpty(post.Author) ? post.Author : "Admin") • @(post.PublishedAt.HasValue ? post.PublishedAt.Value.ToString("MMMM dd, yyyy") : "Not published")
                 </p>
 
                 <p class="text-gray-700 dark:text-gray-300 line-clamp-3">

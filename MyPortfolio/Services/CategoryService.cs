@@ -49,7 +49,7 @@ namespace MyPortfolio.Services
         public async Task<IEnumerable<Category>> GetCategoriesWithCountsAsync(CancellationToken cancellationToken = default)
         {
             return await _unitOfWork.Categories.QueryIncluding(
-                c => c.ChildCategories
+                c => c.SubCategories
             ).OrderBy(c => c.DisplayOrder).ToListAsync();
         }
 

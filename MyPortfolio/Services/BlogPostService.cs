@@ -116,7 +116,7 @@ namespace MyPortfolio.Services
             // Apply sorting
             if (!string.IsNullOrWhiteSpace(parameters.SortBy))
             {
-                query = query.ApplySort(parameters.SortBy, parameters.SortDescending);
+                query = query.ApplySort(parameters.SortBy, parameters.IsDescending);
             }
             else
             {
@@ -333,7 +333,10 @@ namespace MyPortfolio.Services
         // Validation
         public async Task<bool> SlugExistsAsync(string slug, Guid? excludeId = null, CancellationToken cancellationToken = default)
         {
-            return await _unitOfWork.BlogPosts.SlugExistsAsync(slug, excludeId, cancellationToken);
+            var result = await _unitOfWork.BlogPosts.FindAsync(b => b.Slug == slug, cancellationToken);
+            if (excludeId.HasValue)
+                return result.Any(b => b.Id != excludeId.Value);
+            return result.Any();
         }
 
         public async Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken = default)

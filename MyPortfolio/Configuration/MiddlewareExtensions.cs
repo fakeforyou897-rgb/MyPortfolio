@@ -14,7 +14,10 @@ namespace MyPortfolio.Configuration
             ConfigureErrorHandling(app);
 
             // Static files and routing
-            app.UseHttpsRedirection();
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseHttpsRedirection();
+            }
             app.UseStaticFiles();
             app.UseRouting();
 

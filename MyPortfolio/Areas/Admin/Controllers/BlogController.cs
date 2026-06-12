@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
 using MyPortfolio.Models.Entities;
@@ -7,7 +7,7 @@ using MyPortfolio.Extensions;
 namespace MyPortfolio.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Route("Admin/[controller]/[action]")] // ensures /Admin/BlogPosts routing
+    [Route("Admin/[controller]/[action]")]
     public class BlogPostsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -17,7 +17,6 @@ namespace MyPortfolio.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/BlogPosts
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -27,21 +26,20 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return View(blogs);
         }
 
-        // GET: Admin/BlogPosts/Create
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/BlogPosts/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(BlogPost blogPost)
         {
             if (ModelState.IsValid)
             {
-                blogPost.CreatedAt = DateTime.Now;
+                blogPost.Id = Guid.NewGuid();
+                blogPost.CreatedAt = DateTime.UtcNow;
                 _context.BlogPosts.Add(blogPost);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -49,19 +47,17 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return View(blogPost);
         }
 
-        // GET: Admin/BlogPosts/Edit/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(Guid id)
         {
             var blogPost = await _context.BlogPosts.FindAsync(id);
             if (blogPost == null) return NotFound();
             return View(blogPost);
         }
 
-        // POST: Admin/BlogPosts/Edit/5
         [HttpPost("{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, BlogPost blogPost)
+        public async Task<IActionResult> Edit(Guid id, BlogPost blogPost)
         {
             if (id != blogPost.Id) return NotFound();
 
@@ -84,19 +80,17 @@ namespace MyPortfolio.Areas.Admin.Controllers
             return View(blogPost);
         }
 
-        // GET: Admin/BlogPosts/Delete/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
             var blogPost = await _context.BlogPosts.FindAsync(id);
             if (blogPost == null) return NotFound();
             return View(blogPost);
         }
 
-        // POST: Admin/BlogPosts/Delete/5
         [HttpPost("{id}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             var blogPost = await _context.BlogPosts.FindAsync(id);
             if (blogPost != null)

@@ -37,22 +37,22 @@ namespace MyPortfolio.Services
 
         public async Task<IEnumerable<Tag>> GetPopularAsync(int count, CancellationToken cancellationToken = default)
         {
-            return await _unitOfWork.Tags.GetPopularAsync(count, cancellationToken);
+            return await _unitOfWork.Tags.GetPopularTagsAsync(count, cancellationToken);
         }
 
         public async Task<IEnumerable<Tag>> GetTagsWithCountsAsync(CancellationToken cancellationToken = default)
         {
-            return await _unitOfWork.Tags.GetTagsWithCountsAsync(cancellationToken);
+            return await _unitOfWork.Tags.GetActiveTagsAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<Tag>> GetByProjectAsync(Guid projectId, CancellationToken cancellationToken = default)
         {
-            return await _unitOfWork.Tags.GetByProjectAsync(projectId, cancellationToken);
+            return await _unitOfWork.Tags.FindAsync(t => t.ProjectTags.Any(pt => pt.ProjectId == projectId), cancellationToken);
         }
 
         public async Task<IEnumerable<Tag>> GetByBlogPostAsync(Guid blogPostId, CancellationToken cancellationToken = default)
         {
-            return await _unitOfWork.Tags.GetByBlogPostAsync(blogPostId, cancellationToken);
+            return await _unitOfWork.Tags.FindAsync(t => t.BlogPostTags.Any(bt => bt.BlogPostId == blogPostId), cancellationToken);
         }
 
         // Command operations
