@@ -10,7 +10,7 @@ namespace MyPortfolio.Configuration
     /// Main orchestrator for all service collection extensions
     /// Coordinates all configuration modules in the correct order
     /// </summary>
-    public static class ApplicationServiceCollectionExtensions
+    public static class ServiceCollectionExtensions
     {
         /// <summary>
         /// Add all application services to the service collection
