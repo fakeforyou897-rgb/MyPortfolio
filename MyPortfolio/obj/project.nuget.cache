@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "i414oSepKtg=",
-  "success": true,
+  "dgSpecHash": "O7alLISVlCI=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memo\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
@@ -211,5 +211,2134 @@
     "C:\\Users\\Memo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.16\\microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512",
     "C:\\Users\\Memo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.16\\microsoft.netcore.app.host.win-x64.9.0.16.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "filePath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\MyPortfolio.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

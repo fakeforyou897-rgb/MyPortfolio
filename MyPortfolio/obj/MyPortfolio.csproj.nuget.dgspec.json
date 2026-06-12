@@ -13,8 +13,14 @@
         "packagesPath": "C:\\Users\\Memo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\MyPortfolio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\nuget.config"
+          "C:\\Users\\Memo\\Downloads\\New folder (3)\\New folder\\work\\New folder (5)\\MyPortfolio\\NuGet.Config",
+          "C:\\Users\\Memo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
