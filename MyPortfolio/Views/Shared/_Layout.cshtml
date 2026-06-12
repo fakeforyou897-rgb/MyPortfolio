@@ -3,36 +3,40 @@
 @inject UserManager<IdentityUser> UserManager
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@(ViewBag.Title ?? ViewData["Title"] ?? "Portfolio")</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link href="~/css/site.css" rel="stylesheet" />
-  <!-- Theme init — must be before body renders to prevent flash -->
   <script>
     (function(){
+      /* Theme */
       var t = localStorage.getItem("theme");
       if(t==="dark"||(!t&&window.matchMedia("(prefers-color-scheme:dark)").matches)){
         document.documentElement.classList.add("dark");
+      }
+      /* Language / Direction */
+      var lang = localStorage.getItem("lang") || "en";
+      if(lang === "ar"){
+        document.documentElement.setAttribute("lang","ar");
+        document.documentElement.setAttribute("dir","rtl");
       }
     })();
   </script>
 </head>
 <body>
 
-  <!-- ── Page Loader ── -->
-  <div id="page-loader">
-    <div class="loader-spinner"></div>
-  </div>
+  <!-- Page Loader -->
+  <div id="page-loader"><div class="loader-spinner"></div></div>
 
-  <!-- ── Toast Container ── -->
+  <!-- Toast Container -->
   <div id="toast-container"></div>
 
-  <!-- ── Modal Confirm Delete ── -->
+  <!-- Modal Confirm Delete -->
   <div id="modal-overlay">
     <div class="modal">
       <div class="modal-icon">
@@ -40,16 +44,16 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
         </svg>
       </div>
-      <h3 class="modal-title">Delete Confirmation</h3>
-      <p class="modal-desc" id="modal-desc">Are you sure? This cannot be undone.</p>
+      <h3 class="modal-title" data-i18n="modal.deleteTitle">Delete Confirmation</h3>
+      <p class="modal-desc" id="modal-desc" data-i18n="modal.deleteDesc">Are you sure? This cannot be undone.</p>
       <div class="modal-actions">
-        <button id="modal-cancel" class="btn btn-ghost">Cancel</button>
-        <button id="modal-confirm" class="btn btn-danger">Yes, Delete</button>
+        <button id="modal-cancel" class="btn btn-ghost" data-i18n="modal.cancel">Cancel</button>
+        <button id="modal-confirm" class="btn btn-danger" data-i18n="modal.confirm">Yes, Delete</button>
       </div>
     </div>
   </div>
 
-  <!-- ── Server-side toast bridge ── -->
+  <!-- Server-side toast bridge -->
   @if (TempData["ToastSuccess"] != null)
   {
     <script>window.__pendingToasts=[{type:"success",title:"Success",msg:"@TempData["ToastSuccess"]"}];</script>
@@ -59,19 +63,15 @@
     <script>window.__pendingToasts=[{type:"error",title:"Error",msg:"@TempData["ToastError"]"}];</script>
   }
 
-  <!-- ── Navbar ── -->
   @await Html.PartialAsync("_Navbar")
 
-  <!-- ── Main Content ── -->
-  <main style="padding-top:68px">
+  <main style="padding-top:72px">
     @RenderBody()
   </main>
 
-  <!-- ── Footer ── -->
   @await Html.PartialAsync("_Footer")
 
   <script src="~/js/site.js"></script>
   @RenderSection("Scripts", required: false)
-
 </body>
 </html>

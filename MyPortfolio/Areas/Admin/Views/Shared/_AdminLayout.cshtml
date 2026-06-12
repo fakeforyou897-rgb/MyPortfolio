@@ -10,13 +10,12 @@
   <title>@(ViewData["Title"] ?? "Admin") — Admin Panel</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link href="~/css/site.css" rel="stylesheet" />
   <!-- Tailwind CDN for utility classes used throughout admin views -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class' };
-    // Apply theme before render to prevent flash
     (function(){
       var t = localStorage.getItem("theme");
       if(t==="dark"||(!t&&window.matchMedia("(prefers-color-scheme:dark)").matches)){
@@ -26,6 +25,7 @@
   </script>
 </head>
 <body style="margin:0;padding:0;overflow:hidden;font-family:'Inter',system-ui,sans-serif;">
+
 
   <!-- Page Loader -->
   <div id="page-loader"><div class="loader-spinner"></div></div>

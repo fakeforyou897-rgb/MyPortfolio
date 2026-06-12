@@ -760,5 +760,5 @@ C:/Users/Memo/Downloads/New folder (3)/New folder/work/New folder (5)/MyPortfoli
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/MyPortfolio.pdb
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/MyPortfolio.genruntimeconfig.cache
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/ref/MyPortfolio.dll
-/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/dhonh3mkng-qikm2jun0d.gz
-/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/b2ddg8hmia-t7dpt5sdcj.gz
+/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/dhonh3mkng-0xvbyyi3al.gz
+/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/b2ddg8hmia-enlt9xc7gv.gz
