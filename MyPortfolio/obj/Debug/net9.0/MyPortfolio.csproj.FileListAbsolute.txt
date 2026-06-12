@@ -748,8 +748,6 @@ C:/Users/Memo/Downloads/New folder (3)/New folder/work/New folder (5)/MyPortfoli
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/6jcb9ixbvm-5ipweew5fc.gz
-/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/dhonh3mkng-63f616r31x.gz
-/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/b2ddg8hmia-wke3ncfc21.gz
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/wuz8f7d9rl-le5oluzd4s.gz
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/z7gkylbl68-le5oluzd4s.gz
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/staticwebassets.build.json
@@ -762,3 +760,5 @@ C:/Users/Memo/Downloads/New folder (3)/New folder/work/New folder (5)/MyPortfoli
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/MyPortfolio.pdb
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/MyPortfolio.genruntimeconfig.cache
 /home/runner/workspace/MyPortfolio/obj/Debug/net9.0/ref/MyPortfolio.dll
+/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/dhonh3mkng-qikm2jun0d.gz
+/home/runner/workspace/MyPortfolio/obj/Debug/net9.0/compressed/b2ddg8hmia-t7dpt5sdcj.gz

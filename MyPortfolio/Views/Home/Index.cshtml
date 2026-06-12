@@ -1,87 +1,140 @@
-﻿@{
-    ViewBag.Title = "Home";
+@{
+  ViewBag.Title = "Home";
 }
 
-<!-- Hero Section -->
-<section class="text-center py-20 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
-    <h1 class="text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-        Hi, I'm <span class="text-blue-600 dark:text-blue-400">Your Name</span>
+<!-- ── Hero ── -->
+<section class="hero" style="background:var(--color-bg);">
+  <div class="container">
+    <p class="badge badge-primary" style="margin-bottom:1.25rem;font-size:0.8rem;">👋 Available for work</p>
+    <h1 class="hero-title">
+      Hi, I'm <span style="color:var(--color-primary);">Your Name</span>
     </h1>
-    <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
-        Full Stack Developer | ASP.NET | Tailwind | JavaScript
+    <p class="hero-sub">
+      Full Stack Developer crafting modern web apps with ASP.NET Core, Tailwind CSS, and JavaScript.
     </p>
-    <a href="/Projects"
-       class="px-6 py-3 bg-blue-600 text-white rounded-xl shadow-lg hover:bg-blue-700 transition">
-        View My Work
-    </a>
+    <div class="hero-cta">
+      <a href="/Projects" class="btn btn-primary btn-lg">View My Work</a>
+      <a href="/Contact" class="btn btn-ghost btn-lg">Get in Touch</a>
+    </div>
+  </div>
 </section>
 
-<!-- About Me -->
-<section class="container mx-auto px-6 py-16 text-center">
-    <h2 class="text-3xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
-    <p class="max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
-        I’m a passionate full stack developer with expertise in building modern web applications
-        using <span class="font-semibold">ASP.NET MVC, TailwindCSS, and JavaScript</span>.
+<!-- ── Stats Row ── -->
+<section style="background:var(--color-surface);border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border);">
+  <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0;padding-top:2rem;padding-bottom:2rem;">
+    <div style="text-align:center;padding:0 1.5rem;border-right:1px solid var(--color-border);">
+      <div style="font-size:2rem;font-weight:800;color:var(--color-primary);">3+</div>
+      <div style="font-size:0.82rem;color:var(--color-text-muted);">Years Experience</div>
+    </div>
+    <div style="text-align:center;padding:0 1.5rem;border-right:1px solid var(--color-border);">
+      <div style="font-size:2rem;font-weight:800;color:var(--color-primary);">20+</div>
+      <div style="font-size:0.82rem;color:var(--color-text-muted);">Projects Completed</div>
+    </div>
+    <div style="text-align:center;padding:0 1.5rem;border-right:1px solid var(--color-border);">
+      <div style="font-size:2rem;font-weight:800;color:var(--color-primary);">10+</div>
+      <div style="font-size:0.82rem;color:var(--color-text-muted);">Happy Clients</div>
+    </div>
+    <div style="text-align:center;padding:0 1.5rem;">
+      <div style="font-size:2rem;font-weight:800;color:var(--color-primary);">5★</div>
+      <div style="font-size:0.82rem;color:var(--color-text-muted);">Average Rating</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ── -->
+<section class="section">
+  <div class="container" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:3rem;align-items:center;">
+    <div>
+      <div class="badge badge-primary" style="margin-bottom:1rem;">About Me</div>
+      <h2 class="section-title" style="margin-bottom:1rem;">A developer who loves clean code</h2>
+      <p style="margin-bottom:1.25rem;">
+        I'm a passionate full stack developer with expertise in building modern, performant web applications.
         I love turning complex problems into simple, beautiful, and intuitive solutions.
+      </p>
+      <p style="margin-bottom:1.75rem;">
+        With a strong foundation in <strong style="color:var(--color-text);">ASP.NET Core</strong>,
+        <strong style="color:var(--color-text);">EF Core</strong>, and
+        <strong style="color:var(--color-text);">TailwindCSS</strong>, I build end-to-end solutions
+        that are scalable and maintainable.
+      </p>
+      <a href="/Projects" class="btn btn-primary">See My Projects →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div class="card" style="border-left:3px solid var(--color-primary);">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">⚡</div>
+        <h4 style="font-size:0.9rem;margin-bottom:0.3rem;">Backend</h4>
+        <p style="font-size:0.8rem;margin:0;">ASP.NET Core · EF Core · SQL</p>
+      </div>
+      <div class="card" style="border-left:3px solid #8b5cf6;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">🎨</div>
+        <h4 style="font-size:0.9rem;margin-bottom:0.3rem;">Frontend</h4>
+        <p style="font-size:0.8rem;margin:0;">Tailwind · React · TypeScript</p>
+      </div>
+      <div class="card" style="border-left:3px solid #10b981;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">☁️</div>
+        <h4 style="font-size:0.9rem;margin-bottom:0.3rem;">DevOps</h4>
+        <p style="font-size:0.8rem;margin:0;">Docker · Azure · GitHub Actions</p>
+      </div>
+      <div class="card" style="border-left:3px solid #f59e0b;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">🛢</div>
+        <h4 style="font-size:0.9rem;margin-bottom:0.3rem;">Databases</h4>
+        <p style="font-size:0.8rem;margin:0;">SQL Server · PostgreSQL · MongoDB</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Featured Projects ── -->
+<section class="section" style="background:var(--color-surface-2);">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:2.5rem;">
+      <div class="badge badge-primary" style="margin-bottom:0.75rem;">Portfolio</div>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub" style="margin-bottom:0;">Highlights from my recent work</p>
+    </div>
+    <div class="grid-2">
+      <div class="project-card">
+        <div style="height:180px;background:linear-gradient(135deg,#1e3a5f,#2563eb);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3rem;">🛒</span>
+        </div>
+        <div class="project-card-body">
+          <div style="margin-bottom:0.5rem;"><span class="badge badge-success">Completed</span></div>
+          <h3 class="project-card-title">E-Commerce Platform</h3>
+          <p class="project-card-desc">Full-featured e-commerce with ASP.NET Core, React, and payment integration.</p>
+        </div>
+        <div class="project-card-footer">
+          <a href="/Projects" class="btn btn-primary btn-sm">View Project →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div style="height:180px;background:linear-gradient(135deg,#1a0533,#7c3aed);display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:3rem;">💬</span>
+        </div>
+        <div class="project-card-body">
+          <div style="margin-bottom:0.5rem;"><span class="badge badge-success">Completed</span></div>
+          <h3 class="project-card-title">Real-Time Chat App</h3>
+          <p class="project-card-desc">Real-time chat with SignalR, Angular, and WebSocket support.</p>
+        </div>
+        <div class="project-card-footer">
+          <a href="/Projects" class="btn btn-primary btn-sm">View Project →</a>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="/Projects" class="btn btn-secondary btn-lg">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="section" style="background:var(--color-primary);text-align:center;">
+  <div class="container">
+    <h2 style="font-size:2rem;font-weight:800;color:#fff;margin-bottom:0.75rem;">Let's Work Together</h2>
+    <p style="color:rgba(255,255,255,0.8);max-width:500px;margin:0 auto 2rem;">
+      Have a project in mind or want to collaborate? Get in touch and let's make it happen.
     </p>
-</section>
-
-<!-- Skills / Tech Stack -->
-<section class="bg-gray-100 dark:bg-gray-900 py-16">
-    <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-10 text-gray-900 dark:text-white">Skills & Tools</h2>
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="p-6 bg-white dark:bg-gray-800 shadow rounded-2xl">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Backend</h3>
-                <p class="text-gray-600 dark:text-gray-300">ASP.NET MVC, EF Core, SQL Server</p>
-            </div>
-            <div class="p-6 bg-white dark:bg-gray-800 shadow rounded-2xl">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Frontend</h3>
-                <p class="text-gray-600 dark:text-gray-300">Tailwind, JavaScript, React</p>
-            </div>
-            <div class="p-6 bg-white dark:bg-gray-800 shadow rounded-2xl">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">DevOps</h3>
-                <p class="text-gray-600 dark:text-gray-300">Docker, Azure, GitHub Actions</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Featured Projects Preview -->
-<section class="container mx-auto px-6 py-16 text-center">
-    <h2 class="text-3xl font-bold mb-10 text-gray-900 dark:text-white">Featured Projects</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
-            <img src="/images/portfolio.png" alt="Portfolio Project" class="w-full h-40 object-cover" />
-            <div class="p-6">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Portfolio Website</h3>
-                <p class="text-gray-600 dark:text-gray-300">Personal site built with ASP.NET + Tailwind</p>
-                <a href="/Projects" class="text-blue-600 dark:text-blue-400 hover:underline mt-4 inline-block">See More</a>
-            </div>
-        </div>
-        <div class="bg-white dark:bg-gray-800 shadow-lg rounded-2xl overflow-hidden">
-            <img src="/images/shop.png" alt="E-commerce Project" class="w-full h-40 object-cover" />
-            <div class="p-6">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">E-commerce App</h3>
-                <p class="text-gray-600 dark:text-gray-300">Full-stack shopping app with payments</p>
-                <a href="/Projects" class="text-blue-600 dark:text-blue-400 hover:underline mt-4 inline-block">See More</a>
-            </div>
-        </div>
-    </div>
-    <div class="mt-8">
-        <a href="/Projects" class="px-6 py-3 bg-blue-600 text-white rounded-xl shadow-lg hover:bg-blue-700 transition">
-            View All Projects
-        </a>
-    </div>
-</section>
-
-<!-- Contact Call-To-Action -->
-<section class="bg-blue-600 dark:bg-blue-500 py-16 text-center">
-    <h2 class="text-3xl font-bold text-white mb-4">Let's Work Together</h2>
-    <p class="text-blue-100 max-w-xl mx-auto mb-6">
-        Have a project in mind or want to collaborate? Get in touch and let’s make it happen!
-    </p>
-    <a href="/Contact" class="px-6 py-3 bg-white text-blue-600 font-semibold rounded-xl shadow-lg hover:bg-gray-100 transition">
-        Contact Me
+    <a href="/Contact" class="btn btn-lg" style="background:#fff;color:var(--color-primary);font-weight:700;">
+      Contact Me →
     </a>
+  </div>
 </section>

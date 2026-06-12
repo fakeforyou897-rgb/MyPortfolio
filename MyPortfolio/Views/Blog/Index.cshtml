@@ -1,34 +1,80 @@
-﻿@model IEnumerable<MyPortfolio.Models.Entities.BlogPost>
+@model IEnumerable<MyPortfolio.Models.Entities.BlogPost>
 @{
-    ViewData["Title"] = "Blog";
+  ViewData["Title"] = "Blog";
 }
 
-<div class="container mx-auto px-6 py-12">
-    <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-8">Blog</h1>
+<section class="section">
+  <div class="container">
 
-    <div class="space-y-8">
+    <!-- Header -->
+    <div style="margin-bottom:2.5rem;">
+      <div class="badge badge-primary" style="margin-bottom:0.75rem;">Writing</div>
+      <h1 class="section-title">Blog</h1>
+      <p class="section-sub" style="margin-bottom:0;">Thoughts, tutorials, and deep dives on software development.</p>
+    </div>
+
+    @if (!Model.Any())
+    {
+      <!-- Skeleton when no posts -->
+      <div class="grid-auto" id="blog-skeleton">
+        @for (int i = 0; i < 3; i++)
+        {
+          <div class="skeleton-card">
+            <div class="skeleton sk-img"></div>
+            <div class="skeleton sk-title"></div>
+            <div class="skeleton sk-line" style="width:50%;"></div>
+            <div class="skeleton sk-line"></div>
+            <div class="skeleton sk-line" style="width:80%;"></div>
+          </div>
+        }
+      </div>
+      <div style="text-align:center;padding:3rem 0;color:var(--color-text-muted);">
+        No blog posts yet. Check back soon!
+      </div>
+    }
+    else
+    {
+      <div class="grid-auto">
         @foreach (var post in Model)
         {
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-lg transition p-6">
-                <h2 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-2">
-                    <a href="@Url.Action("Details", "Blog", new { id = post.Id })" class="hover:text-blue-600 dark:hover:text-blue-400">
-                        @post.Title
-                    </a>
-                </h2>
-
-                <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                    By @(!string.IsNullOrEmpty(post.Author) ? post.Author : "Admin") • @(post.PublishedAt.HasValue ? post.PublishedAt.Value.ToString("MMMM dd, yyyy") : "Not published")
-                </p>
-
-                <p class="text-gray-700 dark:text-gray-300 line-clamp-3">
-                    @(string.IsNullOrEmpty(post.Summary) ? post.Content.Substring(0, Math.Min(post.Content.Length, 150)) + "..." : post.Summary)
-                </p>
-
-                <a href="@Url.Action("Details", "Blog", new { id = post.Id })"
-                   class="mt-4 inline-block text-blue-600 dark:text-blue-400 hover:underline">
-                    Read more →
+          <article class="blog-card">
+            @if (!string.IsNullOrEmpty(post.FeaturedImageUrl))
+            {
+              <img src="@post.FeaturedImageUrl" alt="@post.Title" class="blog-card-img" loading="lazy" />
+            }
+            else
+            {
+              <div style="height:180px;background:linear-gradient(135deg,var(--color-primary-soft),var(--color-border));display:flex;align-items:center;justify-content:center;font-size:2.5rem;">📝</div>
+            }
+            <div class="blog-card-body">
+              @if (post.IsFeatured)
+              {
+                <span class="badge badge-warning" style="margin-bottom:0.5rem;">⭐ Featured</span>
+              }
+              <h2 class="blog-card-title">
+                <a href="@Url.Action("Details","Blog",new{id=post.Id})" style="color:var(--color-text);text-decoration:none;">
+                  @post.Title
                 </a>
+              </h2>
+              <div class="blog-card-meta">
+                <span>✍️ @(!string.IsNullOrEmpty(post.Author) ? post.Author : "Admin")</span>
+                &nbsp;·&nbsp;
+                <span>📅 @(post.PublishedAt.HasValue ? post.PublishedAt.Value.ToString("MMM dd, yyyy") : "Draft")</span>
+                @if (post.ReadingTimeMinutes > 0)
+                {
+                  <span>&nbsp;·&nbsp;⏱ @post.ReadingTimeMinutes min read</span>
+                }
+              </div>
+              <p class="blog-card-desc" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+                @(string.IsNullOrEmpty(post.Summary) ? (post.Content.Length > 140 ? post.Content.Substring(0,140)+"…" : post.Content) : post.Summary)
+              </p>
+              <div style="margin-top:1rem;">
+                <a href="@Url.Action("Details","Blog",new{id=post.Id})" class="btn btn-primary btn-sm">Read More →</a>
+              </div>
             </div>
+          </article>
         }
-    </div>
-</div>
+      </div>
+    }
+  </div>
+</section>
