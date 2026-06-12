@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Data;
 using MyPortfolio.Data.Repositories;
 using MyPortfolio.Data.UnitOfWork;
+using MyPortfolio.Services;
+using MyPortfolio.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +20,15 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<IContactMessageRepository, ContactMessageRepository>();
 
-// 🔹 3. Add Identity
+// 🔹 3. Register Services
+builder.Services.AddScoped<IMappingService, MappingService>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IBlogPostService, BlogPostService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ITagService, TagService>();
+builder.Services.AddScoped<IContactMessageService, ContactMessageService>();
+
+// 🔹 4. Add Identity
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
@@ -29,13 +39,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-// 🔹 4. Add Controllers + Views (MVC with Razor)
+// 🔹 5. Add Controllers + Views (MVC with Razor)
 builder.Services.AddControllersWithViews();
 builder.Services.AddApplicationInsightsTelemetry();
 
 var app = builder.Build();
 
-// 🔹 5. Middleware Pipeline
+// 🔹 6. Middleware Pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -50,20 +60,20 @@ app.UseRouting();
 app.UseAuthentication(); // ✅ Identity
 app.UseAuthorization();
 
-// 🔹 5. Enable Area Routes FIRST
+// 🔹 7. Enable Area Routes FIRST
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=AdminDashboard}/{action=Index}/{id?}");
 
-// 🔹 6. Default MVC Route
+// 🔹 8. Default MVC Route
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-// 🔹 7. Identity Razor Pages (Login/Register/Manage)
+// 🔹 9. Identity Razor Pages (Login/Register/Manage)
 app.MapRazorPages();
 
-// 🔹 8. Run DB seeding at startup
+// 🔹 10. Run DB seeding at startup
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -83,7 +93,7 @@ async Task SeedAdminUserAsync(IServiceProvider services)
 
     string adminRole = "Admin";
     string adminEmail = "m.ssaid356@gmail.com";
-    string adminPassword = "Memo@3560";
+    string adminPassword = "Memo@356000";
 
     if (!await roleManager.RoleExistsAsync(adminRole))
     {

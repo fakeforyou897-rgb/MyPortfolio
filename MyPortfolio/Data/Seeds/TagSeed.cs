@@ -4,9 +4,14 @@ using MyPortfolio.Models.Entities;
 
 namespace MyPortfolio.Data.Seeds
 {
-    public static class TagSeed
+    /// <summary>
+    /// Seeder for Tag data
+    /// </summary>
+    public class TagSeed : ISeeder
     {
-        public static void Seed(ModelBuilder modelBuilder)
+        public int Order => 2; // Execute second
+
+        public void Seed(ModelBuilder modelBuilder)
         {
             var tags = new List<Tag>
             {

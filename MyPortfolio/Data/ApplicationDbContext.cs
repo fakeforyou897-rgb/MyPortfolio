@@ -33,9 +33,8 @@ namespace MyPortfolio.Data
             // Apply all entity configurations from assembly
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
-            // Seed initial data
-            CategorySeed.Seed(modelBuilder);
-            TagSeed.Seed(modelBuilder);
+            // Seed initial data using centralized seeder
+            DataSeeder.Seed(modelBuilder);
         }
 
         public override int SaveChanges()

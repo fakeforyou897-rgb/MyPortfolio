@@ -4,9 +4,14 @@ using MyPortfolio.Models.Entities;
 
 namespace MyPortfolio.Data.Seeds
 {
-    public static class CategorySeed
+    /// <summary>
+    /// Seeder for Category data
+    /// </summary>
+    public class CategorySeed : ISeeder
     {
-        public static void Seed(ModelBuilder modelBuilder)
+        public int Order => 1; // Execute first
+
+        public void Seed(ModelBuilder modelBuilder)
         {
             var categories = new List<Category>
             {
