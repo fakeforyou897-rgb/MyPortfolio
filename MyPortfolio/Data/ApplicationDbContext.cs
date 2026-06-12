@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MyPortfolio.Models.Entities;
 using MyPortfolio.Models.Common;
+using MyPortfolio.Data.Seeds;
 
 namespace MyPortfolio.Data
 {
@@ -16,6 +17,7 @@ namespace MyPortfolio.Data
         {
         }
 
+        // DbSets
         public DbSet<Project> Projects { get; set; }
         public DbSet<BlogPost> BlogPosts { get; set; }
         public DbSet<ContactMessage> ContactMessages { get; set; }
@@ -28,118 +30,12 @@ namespace MyPortfolio.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configure soft delete global query filter
-            modelBuilder.Entity<Project>().HasQueryFilter(p => !p.IsDeleted);
-            modelBuilder.Entity<BlogPost>().HasQueryFilter(b => !b.IsDeleted);
-            modelBuilder.Entity<ContactMessage>().HasQueryFilter(c => !c.IsDeleted);
-            modelBuilder.Entity<Category>().HasQueryFilter(c => !c.IsDeleted);
-            modelBuilder.Entity<Tag>().HasQueryFilter(t => !t.IsDeleted);
+            // Apply all entity configurations from assembly
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
-            // Configure many-to-many relationships
-            modelBuilder.Entity<BlogPostTag>()
-                .HasKey(bt => new { bt.BlogPostId, bt.TagId });
-
-            modelBuilder.Entity<BlogPostTag>()
-                .HasOne(bt => bt.BlogPost)
-                .WithMany(b => b.BlogPostTags)
-                .HasForeignKey(bt => bt.BlogPostId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<BlogPostTag>()
-                .HasOne(bt => bt.Tag)
-                .WithMany(t => t.BlogPostTags)
-                .HasForeignKey(bt => bt.TagId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<ProjectTag>()
-                .HasKey(pt => new { pt.ProjectId, pt.TagId });
-
-            modelBuilder.Entity<ProjectTag>()
-                .HasOne(pt => pt.Project)
-                .WithMany(p => p.ProjectTags)
-                .HasForeignKey(pt => pt.ProjectId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<ProjectTag>()
-                .HasOne(pt => pt.Tag)
-                .WithMany(t => t.ProjectTags)
-                .HasForeignKey(pt => pt.TagId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            // Configure Category self-referencing relationship
-            modelBuilder.Entity<Category>()
-                .HasOne(c => c.ParentCategory)
-                .WithMany(c => c.SubCategories)
-                .HasForeignKey(c => c.ParentCategoryId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            // Configure indexes for better performance
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.Slug)
-                .IsUnique();
-            
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.Status);
-            
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.IsFeatured);
-            
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.IsPublished);
-            
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.DisplayOrder);
-
-            modelBuilder.Entity<Project>()
-                .HasIndex(p => p.CategoryId);
-
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.Slug)
-                .IsUnique();
-            
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.Status);
-            
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.PublishedAt);
-            
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.IsFeatured);
-
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.IsPublished);
-
-            modelBuilder.Entity<BlogPost>()
-                .HasIndex(b => b.CategoryId);
-
-            modelBuilder.Entity<ContactMessage>()
-                .HasIndex(c => c.Status);
-            
-            modelBuilder.Entity<ContactMessage>()
-                .HasIndex(c => c.IsRead);
-            
-            modelBuilder.Entity<ContactMessage>()
-                .HasIndex(c => c.SentAt);
-
-            modelBuilder.Entity<Category>()
-                .HasIndex(c => c.Slug)
-                .IsUnique();
-
-            modelBuilder.Entity<Category>()
-                .HasIndex(c => c.IsActive);
-
-            modelBuilder.Entity<Category>()
-                .HasIndex(c => c.ParentCategoryId);
-
-            modelBuilder.Entity<Tag>()
-                .HasIndex(t => t.Slug)
-                .IsUnique();
-
-            modelBuilder.Entity<Tag>()
-                .HasIndex(t => t.IsActive);
-
-            modelBuilder.Entity<Tag>()
-                .HasIndex(t => t.UsageCount);
+            // Seed initial data
+            CategorySeed.Seed(modelBuilder);
+            TagSeed.Seed(modelBuilder);
         }
 
         public override int SaveChanges()
@@ -170,10 +66,12 @@ namespace MyPortfolio.Data
                 if (entry.State == EntityState.Added)
                 {
                     entity.CreatedAt = now;
+                    // TODO: Set CreatedBy from current user context
                 }
                 else if (entry.State == EntityState.Modified)
                 {
                     entity.UpdatedAt = now;
+                    // TODO: Set UpdatedBy from current user context
                 }
                 else if (entry.State == EntityState.Deleted)
                 {
@@ -181,6 +79,7 @@ namespace MyPortfolio.Data
                     entry.State = EntityState.Modified;
                     entity.IsDeleted = true;
                     entity.DeletedAt = now;
+                    // TODO: Set DeletedBy from current user context
                 }
             }
         }
